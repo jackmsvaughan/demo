@@ -1285,3 +1285,56 @@ pre[class*="language-"] {
 .super-badge img {
     margin-left: 5px!important;
 }
+
+.notion-callout {
+    background: #fafafc !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+    padding: 40px !important;
+    padding-bottom: 0px !important;
+    border: none !important;
+  }
+  
+  .notion-callout__content {
+    margin: 0 auto !important;
+  }
+  
+  .notion-callout__icon {
+    display: none !important;
+  }
+  
+  .notion-callout h1 {
+    letter-spacing: -1.5px !important;
+    margin: 0 auto 8px !important;
+    font-size: 36px !important;
+  }
+  
+  .notion-callout .notion-callout {
+    border-radius: 100px !important;
+    width: fit-content !important;
+    background: #000 !important;
+    margin: 0 auto !important;
+    color: #fff !important;
+    padding: 0 !important;
+  }
+  
+  .notion-callout .notion-callout a {
+    padding: 12px 24px !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+  
+  @media (max-width: 600px) {
+    
+    .notion-callout {
+      padding: 24px !important;
+    }
+    
+    .notion-callout .notion-heading {
+      letter-spacing: -1px !important;
+      font-size: 24px !important;
+    }
+  
+  }
+  
+  
